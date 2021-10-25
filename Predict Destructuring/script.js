@@ -61,10 +61,10 @@ const { key } = lastTest;
 const { secondKey } = lastTest;
 const [ ,willThisWork] = secondKey;
 //Predict the output
-console.log(key);
-console.log(secondKey);
-console.log(secondKey[0]);
-console.log(willThisWork);
+console.log("key: ", key);
+console.log("secondKey: ",secondKey);
+console.log("secondKey[0]: ",secondKey[0]);
+console.log("willThisWork: ",willThisWork);
 
 // My guess: The output will print
 // 'value', then the entire array [1, 5, 1, 8, 3, 3],
