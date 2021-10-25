@@ -25,6 +25,7 @@ console.log("otherName: ", otherName);
 
 // I see now because it could print if it wasnt renamed to otherName, so
 // now name has no value because we renamed name itself to otherName.
+// It should have been a hint since name is deprecated! 
 
 const person = {
     name: 'Phil Smith',
