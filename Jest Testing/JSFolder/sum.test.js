@@ -15,7 +15,3 @@ describe('add', () => {
     });
 });
 
-
-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
-
-// github token
