@@ -83,3 +83,5 @@ console.log("Pokemon whose only type is normal: ", normalPokemon)
 
 // honestly this last one was a straight up guess where I added
 // .length and was surprised it works! Now I know for future reference
+
+
