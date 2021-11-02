@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin-top: 20px;
+  width: 40%;
+  margin: auto;
+}
+.listOfNames {
+  margin: 20px;
+  text-align: left;
+}
+h1, p {
+  margin-bottom: 15px;
+}
