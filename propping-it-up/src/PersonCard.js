@@ -11,3 +11,6 @@ const PersonCard = (props) => {
     )
 }
 export default PersonCard;
+
+
+// this is the functional way
