@@ -10,12 +10,14 @@ class PersonCard extends Component {
   }
   render() {
     // age is used when setting up state and so we do not need to destructure it here!
+    // destructuring from this.props in a class component is the equivalent of
+    // destructuring from just props in functional components.
     const { firstName, lastName, hair } = this.props;
 
     return (
       <div className="container">
         <h2>
-          {lastName}, {firstName}
+          {firstName} {lastName}
         </h2>
         <p>Age: {this.state.ageUp}</p>
         <p>Hair Color: {hair}</p>
